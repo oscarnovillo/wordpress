@@ -39,6 +39,10 @@ if (!function_exists('getenv_docker')) {
 	}
 }
 
+define( 'WP_HOME', 'http://192.168.159.132:8080' );
+define( 'WP_SITEURL', 'http://192.168.159.132:8080' );
+
+
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', getenv_docker('WORDPRESS_DB_NAME', 'wordpress') );
