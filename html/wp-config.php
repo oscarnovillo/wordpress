@@ -39,8 +39,6 @@ if (!function_exists('getenv_docker')) {
 	}
 }
 
-define( 'WP_HOME', 'http://192.168.159.132' );
-define( 'WP_SITEURL', 'http://192.168.159.132' );
 
 
 // ** Database settings - You can get this info from your web host ** //
